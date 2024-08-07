@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WebApplication2.Areas.Identity.Data;
+using IdentityAPI.Areas.Identity.Data;
 
-namespace WebApplication2.Areas.Identity.Data;
+namespace IdentityAPI.Areas.Identity.Data;
 
 public class IdentityContext : IdentityDbContext<User>
 {
